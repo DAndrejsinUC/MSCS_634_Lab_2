@@ -53,3 +53,20 @@ Once again, I wanted to see what would happen with normalized data values. Once 
 - Radius = 10.0 --> Accuracy (scaled): 0.3889
 
 **This was probably the most interesting discovery. After normalizing the values, I got a perfect accuracy with Radius value 4, but then the accuracy started sharply declining after value 5. This unexpected behavior probably occurred because the different classes might be well separated from each other, and higher radius values might include data from other classes in the prediction. .**
+
+## Visualizations
+
+Here is the output from the model:
+
+
+![KNN Plot](Screenshots/KNN%20Snapshot.png)
+
+
+
+![RNN Plot](Screenshots/Unscaled%20RNN.png)
+
+
+
+![RNN Scaled Plot](Screenshots/Scaled%20RNN.png)
+
+
